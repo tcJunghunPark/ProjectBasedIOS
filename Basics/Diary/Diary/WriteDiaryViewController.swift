@@ -87,7 +87,8 @@ class WriteDiaryViewController: UIViewController {
         switch self.diaryEditorMode {
         case .new:
             self.delegate?.didSelectRegister(diary: diary)
-        case let .edit(indexPath, _):
+        case let .edit(indexPath, diary):
+            let diary = Diary(title: title, contents: contents, date: date, isStar: diary.isStar)
             NotificationCenter.default.post(name: NSNotification.Name("editDiary"),
                                             object: diary,
                                             userInfo: ["indexPath.row" : indexPath.row])
