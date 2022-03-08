@@ -22,13 +22,13 @@
                                     <constraint firstAttribute="width" constant="100" id="Rq3-y8-zSh"/>
                                 </constraints>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7u-dV-6Gm">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7u-dV-6Gm">
                                 <rect key="frame" x="24" y="248" width="366" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="AtK-KO-5dF">
+                            <progressView opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="AtK-KO-5dF">
                                 <rect key="frame" x="48" y="338" width="318" height="4"/>
                             </progressView>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgT-ih-nF6">
@@ -41,11 +41,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="143" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="취소"/>
+                                        <connections>
+                                            <action selector="tapCancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5Z-DS-GIT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgd-He-b2D">
                                         <rect key="frame" x="223" y="0.0" width="143" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="시작"/>
+                                        <connections>
+                                            <action selector="tapToggleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8YM-7n-6y4"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -69,6 +75,14 @@
                             <constraint firstItem="bxf-p6-q0x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="vm5-mo-kyp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="YLI-SE-Gu5" id="DpF-KT-jMI"/>
+                        <outlet property="datePicker" destination="YgT-ih-nF6" id="hQM-ab-eoy"/>
+                        <outlet property="imageView" destination="0sY-Cv-EVP" id="RWa-NX-3ym"/>
+                        <outlet property="progressView" destination="AtK-KO-5dF" id="DUN-vB-87s"/>
+                        <outlet property="timerLabel" destination="J7u-dV-6Gm" id="ctK-UO-IIm"/>
+                        <outlet property="toggleButton" destination="fgd-He-b2D" id="uu0-Sa-tFY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
