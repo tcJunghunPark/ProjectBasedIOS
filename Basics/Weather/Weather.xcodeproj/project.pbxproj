@@ -14,6 +14,7 @@
 		A7795D8027D881E7005D29AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7795D7F27D881E7005D29AA /* Assets.xcassets */; };
 		A7795D8327D881E7005D29AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7795D8127D881E7005D29AA /* LaunchScreen.storyboard */; };
 		A7795D8B27D8841E005D29AA /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7795D8A27D8841E005D29AA /* WeatherInformation.swift */; };
+		A7795D8D27D8907A005D29AA /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7795D8C27D8907A005D29AA /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A7795D8227D881E7005D29AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7795D8427D881E7005D29AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7795D8A27D8841E005D29AA /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		A7795D8C27D8907A005D29AA /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A7795D7627D881E6005D29AA /* AppDelegate.swift */,
 				A7795D7827D881E6005D29AA /* SceneDelegate.swift */,
 				A7795D8A27D8841E005D29AA /* WeatherInformation.swift */,
+				A7795D8C27D8907A005D29AA /* ErrorMessage.swift */,
 				A7795D7A27D881E6005D29AA /* ViewController.swift */,
 				A7795D7C27D881E6005D29AA /* Main.storyboard */,
 				A7795D7F27D881E7005D29AA /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				A7795D7B27D881E6005D29AA /* ViewController.swift in Sources */,
 				A7795D8B27D8841E005D29AA /* WeatherInformation.swift in Sources */,
+				A7795D8D27D8907A005D29AA /* ErrorMessage.swift in Sources */,
 				A7795D7727D881E6005D29AA /* AppDelegate.swift in Sources */,
 				A7795D7927D881E6005D29AA /* SceneDelegate.swift in Sources */,
 			);
