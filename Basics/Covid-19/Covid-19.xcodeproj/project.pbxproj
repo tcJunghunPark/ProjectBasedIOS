@@ -15,6 +15,7 @@
 		A7795DA427D8A576005D29AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7795DA327D8A576005D29AA /* Assets.xcassets */; };
 		A7795DA727D8A576005D29AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7795DA527D8A576005D29AA /* LaunchScreen.storyboard */; };
 		A7795DAF27D8A7F5005D29AA /* CovidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7795DAE27D8A7F5005D29AA /* CovidDetailViewController.swift */; };
+		A7795DB127D8B22C005D29AA /* CityCovidOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7795DB027D8B22C005D29AA /* CityCovidOverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A7795DA627D8A576005D29AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7795DA827D8A576005D29AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7795DAE27D8A7F5005D29AA /* CovidDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailViewController.swift; sourceTree = "<group>"; };
+		A7795DB027D8B22C005D29AA /* CityCovidOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCovidOverview.swift; sourceTree = "<group>"; };
 		D90DB7124823E9C4928F1D11 /* Pods-Covid-19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid-19.release.xcconfig"; path = "Target Support Files/Pods-Covid-19/Pods-Covid-19.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				A7795D9A27D8A575005D29AA /* AppDelegate.swift */,
 				A7795D9C27D8A575005D29AA /* SceneDelegate.swift */,
 				A7795DAE27D8A7F5005D29AA /* CovidDetailViewController.swift */,
+				A7795DB027D8B22C005D29AA /* CityCovidOverview.swift */,
 				A7795D9E27D8A575005D29AA /* ViewController.swift */,
 				A7795DA027D8A575005D29AA /* Main.storyboard */,
 				A7795DA327D8A576005D29AA /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				A7795D9F27D8A575005D29AA /* ViewController.swift in Sources */,
 				A7795DAF27D8A7F5005D29AA /* CovidDetailViewController.swift in Sources */,
 				A7795D9B27D8A575005D29AA /* AppDelegate.swift in Sources */,
+				A7795DB127D8B22C005D29AA /* CityCovidOverview.swift in Sources */,
 				A7795D9D27D8A575005D29AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
