@@ -48,10 +48,14 @@ IOS Templeate Inventory
 ## 날씨 앱
 - 검색한 도시의 현재 날씨 알림
 - HTTP 통신, URL session
+- Do not use or copy API key
+- [Weather API link](https://openweathermap.org/api)
 
 <img width="392" alt="weather" src="https://user-images.githubusercontent.com/54619996/157434585-dfdf4a36-81bd-463e-a78e-479d485d634e.png">
 
 ## 코로나 19 현황판 앱
+- Do not use or copy API key
+- [Covid 19 API link](https://api.corona-19.kr/)
 
 |메인화면|상세화면|
 |:-:|:-:|
