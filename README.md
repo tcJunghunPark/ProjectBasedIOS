@@ -7,6 +7,7 @@ Project Based IOS/Swift study_fast campus lecture
 ## LED 전광판 앱
 - 직접 입력한 문구 전광판에 띄우기
 - 폰트 색상, 배경 색상 버튼으로 변경 가능
+<img src="./Basics/img/LED_main.PNG">
 
 ## 계산기 앱
 - 간단한 IOS 스타일 기본 계산기
