@@ -61,6 +61,7 @@ IOS Templeate Inventory
 |:-:|:-:|
 |![메인화면](https://user-images.githubusercontent.com/54619996/157434782-add42b96-7f5a-45b1-b0c2-77e31f183fff.png?w=400)|![상세화면](https://user-images.githubusercontent.com/54619996/157434793-f8de3cc1-d824-440b-b47c-9bc44ad0508b.png?w=400)|
 
-# intermediate
+# Intermediate
+[Intermediate Level IOS Practice](https://github.com/tcJunghunPark/IOS_intermediate)
 
 # Advanced
