@@ -64,4 +64,7 @@ IOS Templeate Inventory
 # Intermediate
 [Intermediate Level IOS Practice](https://github.com/tcJunghunPark/IOS_intermediate)
 
+# Upper Intermediate
+[Upper Intermediate Level IOS Clone coding](https://github.com/tcJunghunPark/IOS_Upper-Intermediate)
+
 # Advanced
